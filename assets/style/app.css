@@ -115,8 +115,10 @@ h1{
 }
 .header-link-container a
 {
+    padding: 20px;
     margin-top: 25px;
     font-size: 14px;
+    text-decoration: none;
 }
 .header-link-container img
 {
@@ -138,7 +140,7 @@ h1{
     display: flex;
 }
 .column {
-flex:1;
+    flex:1;
 }
 
 .boxes {
@@ -156,6 +158,10 @@ flex:1;
 {
     width: 12px;
     height: 12px;
+}
+.details a
+{
+    text-decoration: none;
 }
 .h3
 {
