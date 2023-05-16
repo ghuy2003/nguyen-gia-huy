@@ -1,0 +1,71 @@
+header
+{
+    background-color:midnightblue;
+    width: auto;
+    height: auto;  
+}
+h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    color:white;
+    flex: none;
+
+}
+.para
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para1
+{
+    margin-left: 30px;
+    text-align: center;
+    color:white;
+    margin-right: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+}
+.para2
+{
+    text-align: center;
+    color:white;
+    margin-right: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+}
+.para3
+{
+    text-align: center;
+    color:white;
+    margin-right: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+}
+.para4
+{
+    text-align: center;
+    color:white;
+    margin-right: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+}
+footer
+{
+    bottom: auto;
+    background-color:midnightblue;
+    width: auto;
+    height: auto;  
+}
