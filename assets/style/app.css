@@ -62,10 +62,43 @@ h1{
     font-size: 18px;
     line-height: 160%;
 }
-footer
-{
-    bottom: auto;
-    background-color:midnightblue;
+
+.box {
+    display: flex;
+    margin-top: 100px;
     width: auto;
-    height: auto;  
+    height: auto;
+    background-color: midnightblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.box1 {
+    margin-left: auto;
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box2 {
+    margin-left: 20px;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
