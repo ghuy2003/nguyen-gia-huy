@@ -115,7 +115,6 @@ h1{
 
 .header-link-container {
     display: flex;
-    justify-content: space-between;
     font-family: 'Plus Jakarta Sans';
 }
 .header-link-container a
@@ -144,9 +143,7 @@ h1{
 .container {
     display: flex;
 }
-.column {
-    flex:1;
-}
+
 
 .boxes {
     margin-bottom: 20px;
