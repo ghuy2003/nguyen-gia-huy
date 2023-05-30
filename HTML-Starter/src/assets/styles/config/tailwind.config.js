@@ -20,7 +20,8 @@ module.exports = {
     screens: configs.Screes,
     extend: {
       keyframes: {
-        opacity: {
+        opacity: 
+        {
           'from': { opacity: '0' },
           'to': { opacity: '1' }
         }
@@ -61,7 +62,6 @@ module.exports = {
       translate: ['motion-safe'],
       display: ['group-hover']
     }
-
   },
   corePlugins: {
     transform: false,
