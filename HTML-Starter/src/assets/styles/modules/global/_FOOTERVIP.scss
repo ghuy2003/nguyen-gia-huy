@@ -1,0 +1,18 @@
+.football{
+    @apply mt-20;
+    a{
+      @apply no-underline;
+      color: inherit;
+      &:hover{  
+        @apply text-blue-300;
+      }
+    }
+  }
+  .add{
+    a{  
+      &:hover {
+        @apply underline;
+        @apply text-white;
+      }
+    }
+  }

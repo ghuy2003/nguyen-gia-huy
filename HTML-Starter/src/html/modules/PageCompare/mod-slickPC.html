@@ -1,0 +1,31 @@
+<section class="module mod-slickPC">
+    <div class="container text-plus">
+        <div class="head-content text-center px-23 pt-10 ">
+            <h1>Compare Quest Adjustable Bases</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum id sed aenean porta lorem malesuada vitae rhoncus quis. Mattis id ac risus arcu lectus eget posuere vitae consectetur. Lacus velit pharetra, ultricies turpis eget placerat ac ac. Ante donec morbi fermentum mauris adipiscing volutpat augue.</p>
+        </div>
+    </div>
+<div class="space-h-20"></div>
+    <div class="container1">
+        <div class="sliderss ">  <!-- sliderss -->
+            {% for i in col %}
+            <div class="  px-5 mt-30">
+                    <div class="slider-items   py-10">                      
+                        <h4>{{i.headcontent}}</h4>
+                        <img class="2xxl:w-228 2xl:w-173 xl:w-185 md:w-175 w-162" src="{{i.image}}" alt="">
+                        <div class="box-content pl-5">
+                        <h3>{{i.title1}}</h3>
+                        <p class="max-w-400">{{i.Description}}</p>
+                        <h5>{{i.available}}</h5>
+                        <h5>{{i.price}}</h5>
+                            <div class="w-full mt-16 ">
+                        <a class="font-bold text-7 bg-blue-400 text-white px-10 py-7 rounded no-underline w-full" href="#">{{i.button1.textbutton}}</a>
+                            </div>
+                        </div>
+                    </div>               
+            </div> 
+            {% endfor %}
+        </div>
+    </div>
+   
+</section>

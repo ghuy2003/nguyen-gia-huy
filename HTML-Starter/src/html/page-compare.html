@@ -1,0 +1,20 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    {% include 'modules/PageCompare/mod-slickPC.html' %}
+    <div class="space h-30 "></div>
+    {% include 'modules/PageHome/mod-newbanner.html' %}
+    <div class="space h-50 "></div>
+    {% include 'modules/PageCategory/mod-see_all.html' %}
+    <div class="space h-30 "></div>
+    {% include 'modules/PageCategory/mod-let_us.html' %}
+    <div class="space h-30 "></div>
+    {% include 'modules/PageHome/mod-secondbanner.html' %}
+    <div class="h-50"></div>
+
+
+</main>
+
+{% endblock %}

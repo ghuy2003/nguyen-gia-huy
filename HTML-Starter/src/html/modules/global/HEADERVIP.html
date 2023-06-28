@@ -1,0 +1,26 @@
+<header id="header" class="module header fixed z-50 w-full bg-white lg:py-0" data-module="header">
+  <a href="#main-content"
+    class="skip-link text-center opacity-0 absolute mx-auto table left-0 right-0 pointer-events-none"><span>Skip to main content</span></a>
+  <div class="container navbar navbar-expand-lg lg:flex items-center justify-between">
+    <div class="header-mobile row items-center justify-between flex-wrap">
+
+      <div class="relative lg:absolute lg:pt-40 lg:max-w-150 max-w-200 bg-blue-900">
+        <a href="#">
+          <img class="lg:px-10 lg:pb-10 px-20 py-5" src='assets/images/logo.svg'>
+        </a>
+      </div>
+      
+      <div class="col col-3 text-right lg:hidden">
+        <button class="border-0 hamburger-menu" type="button" data-toggle="collapse" data-target="#main-menu"
+          aria-controls="main-menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icomoon icon-close hidden"></span>
+          <span class="sr-only">Open Menu</span>
+        </button>
+      </div>
+    </div>
+    {% include "modules/global/MENUVIPVIP.html" %} 
+  </div>
+</header>

@@ -1,0 +1,16 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    {% include 'modules/PageCategory/mod-let_us.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageReviews/mod-ask_for.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-newbanner.html' %}
+    <div class="h-50"></div>
+    
+    
+</main>
+
+{% endblock %}

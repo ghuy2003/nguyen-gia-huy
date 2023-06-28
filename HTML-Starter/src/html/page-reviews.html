@@ -1,0 +1,24 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    {% include 'modules/PageReviews/mod-reviews_page.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-secondbanner.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-slickPH1.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageCategory/mod-textbased.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageReviews/mod-In_the_press.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageCategory/mod-let_us.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageReviews/mod-ask_for.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-newbanner.html' %}
+    <div class="h-50"></div>
+</main>
+
+{% endblock %}

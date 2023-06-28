@@ -1,0 +1,69 @@
+<footer id="football" class="module football">
+  <div class="px-6 xl:px-20 2xl:px-50 2k:px-100">
+    <div class="foot-top pt-10 font-plus font-bold">
+      <div class="row">
+        <div class="lazy w-full lg:w-2/6 bg-blue-999 text-white">
+          <a href="#"><img class="mx-auto my-20" src='assets/images/logo.svg'></a>
+          <div class="text-base mt-0 lg:mt-50">
+            <p class="text-center my-5" href="#">Subscribe to our emails</p>
+            <div class="px-10 sm:px-20 md:px-40 lg:px-10 2xl:px-30">
+            <input class="form-control" id="sign-up-email" aria-invalid="false" placeholder="Enter your email*" value="" type="email" name="email"> 
+            </div>
+          </div>
+        <div class="row m-10 md:mx-20 lg:mt-50">
+        <div class="w-1/2 lg:w-full">
+          <div class="add text-left lg:text-center text-xl">
+            <a href="tel:+999">1.888.550.3746</a>
+          </div>
+        </div>
+        
+        <div class="w-1/2 lg:w-full mt-0 lg:mt-50 text-right lg:text-center">
+          <div class="social">
+            {% include "modules/global/social.html" %}
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="lg:w-4/6">
+          <div class="row">
+        {% for i in [1, 2, 3, 4] %}
+        <div class="col w-full md:w-1/2 lg:w-1/4 mt-20 lg:mt-0">
+         <ul class="list-none">
+           <li>
+             
+            <a href="#"><p class="h5 font-body">Shop</p></a>
+
+             <ul class="footer-menu list-none pl-0 text-blue-500 leading-7 text-base">
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+            </ul>
+          </li>
+         </ul>
+        
+        </div>
+        {%endfor%}
+        <div class="container text-center last-mb-none py-10 w-full">
+          <p class="footer-copyright">
+            Copyright © 2018-2021 9thWonder
+            <a href="#">Private Policy</a>
+            <a href="#">Disclaimer</a>
+          </p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    
+  </footer>
+  

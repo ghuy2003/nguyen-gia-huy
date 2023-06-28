@@ -1,0 +1,24 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-newbanner.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageShop/mod-all_detail.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageCategory/mod-feature_benefit.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageShop/mod-head_and_foot.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageShop/mod-full_featured.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageCategory/mod-let_us.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageShop/mod-additional.html' %}
+    <div class="h-50"></div>
+    
+</main>
+
+{% endblock %}

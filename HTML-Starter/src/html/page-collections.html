@@ -1,0 +1,12 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    {% include 'modules/PageCollections/mod-Collection.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageCategory/mod-textbased.html' %}
+    <div class="h-50"></div>
+</main>
+
+{% endblock %}

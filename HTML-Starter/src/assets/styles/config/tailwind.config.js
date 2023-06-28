@@ -7,11 +7,11 @@ module.exports = {
     './public/**/*.html',
     './public/**/*.html',
     './src/assets/**/*.js',
-    './index.php', 
+    './index.php',
     './app/**/*.php', 
     './resources/**/*.{php,vue,js}',
   ],
-  theme: {
+  theme: {      
     fontFamily: {
       sans: ['Source Sans Pro', 'serif'],
       body: ['Jost', 'sans-serif'],
@@ -145,7 +145,7 @@ module.exports = {
             paddingRight: '48px',
           },
           '@screen xl': {
-            maxWidth: '1110px',
+            maxWidth: '1110px',   
             paddingLeft: '70px',
             paddingRight: '70px',
           },
@@ -157,8 +157,35 @@ module.exports = {
           '@screen lg': {
             maxWidth: '1100px',
           }
-        }
+        },
+
+        '.container1': {
+          width: '100%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          paddingLeft: '26px',
+          // paddingRight: '26px',
+          '@screen lg': {
+            maxWidth: '1200px',
+            paddingLeft: '48px',
+            // paddingRight: '48px',
+          },
+          '@screen xl': {
+            maxWidth: '1280px',
+            // paddingLeft: '70px',
+            // paddingRight: '70px',
+          },
+          '@screen 2xl': {
+            maxWidth: '1440px',
+            paddingLeft: '2px',
+          },
+          '@screen 2xxl': {
+            maxWidth: '1920px',
+            paddingLeft: '10px',
+          }
+        }         
       })
     }
   ]
 }
+        

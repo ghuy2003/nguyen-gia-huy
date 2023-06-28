@@ -1,0 +1,27 @@
+<section class="module mod-In_the_press">
+    <div class="container">
+        <div class="font-body text-sm px-10 xl:px-40">
+            <div class="py-20">
+                <div class="w-full">
+                    <h2 class="font-light">In the Press Headline Here</h2>
+                </div>
+            </div>
+            <div class="row">
+                
+                {% for i in col %}
+                <div class="col w-full md:w-1/2 xl:w-1/2 px-3">
+                    <img class="rounded" src="{{i.Image}}"></img>
+                    <div class=" text-left pt-20 pb-35">
+                        <h3 class="text-base">{{i.Titles}}</h3>
+                        <p class="mb-10 font-light max-w-440">{{i.Descriptions}}</p>
+                        <p>
+                            <a class="no-underline font-bold text-xs bg-none text-blue-200" href="">{{i.Buttons.text}}<img class="inline ml-5"src="assets/images/j.svg"></a>
+                        </p>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
+        </div>
+    </div>
+
+</section>

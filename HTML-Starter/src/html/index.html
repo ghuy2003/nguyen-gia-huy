@@ -7,11 +7,10 @@ ourTeam: My Team
 
 {% block content %}
 <main id="main-content" class="main-content pt-40">
-    <!-- {% include 'modules/mod-banner.html' %} -->
-    {% include 'modules/mod-newbanner.html' %}
-    {% include 'modules/mod-slickPH.html' %}
-    {% include 'modules/mod-column.html' %}
-    {% include 'modules/mod-secondbanner.html' %}
+    {% include 'modules/PageHome/mod-newbanner.html' %}
+    {% include 'modules/PageHome/mod-column.html' %}
+
+    {% include 'modules/PageHome/mod-secondbanner.html' %}
     {% set option = 1 %}
     {% set nameSlider = 'slider1' %}
     {% set customizeClass = 'allow-tab-btn' %}
@@ -21,6 +20,8 @@ ourTeam: My Team
     <div class="h-20"></div>
     {% include 'modules/mod-banner-internal.html' %}
     {% include 'modules/mod-hello-world.html' %}
+    {{name}}
+    {{column}}
 </main>
 
 {% endblock %}

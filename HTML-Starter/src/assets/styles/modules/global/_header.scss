@@ -1,25 +1,33 @@
-
+#header{
+  a{
+    @apply text-black no-underline hover:no-underline hover:text-blue-300;
+  
+  &:-webkit-any-link:focus-visible {
+    outline-offset: 3px;
+  }
+  }
+}
 
 .pin-header {
-  @apply border-b-1 border-primary-100;
+  @apply border-b-1 border-blue-300;
 }
 .page-home-data,
 .front-page-data,
 .error404 {
   .header:not(.pin-header):not(.is-open-menu) {
     .hamburger-menu .icon-bar {
-      @apply bg-primary-100;
+      @apply bg-blue-300;
     }
 
     .main-menu-ul {
-      @apply text-primary-100;
+      @apply text-blue-300;
     }
 
     .btn-transparent {
-      @apply text-primary-100 border-primary-100;
+      @apply text-blue-300 border-blue-300;
 
       &:hover {
-        @apply text-primary-200 border-primary-200;
+        @apply text-blue-300 border-blue-300;
       }
     }
   }

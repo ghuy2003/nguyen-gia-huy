@@ -4,7 +4,8 @@ const minWidth = {
   min: 'min-content',
   max: 'max-content',
   200: '200px',
-  450: '450px'
+  450: '450px',
+  
 }
 module.exports = {
   minWidth
